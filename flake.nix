@@ -1,3 +1,3 @@
 {
-  outputs = _: { lib.mkFlake = import ./lib/mkFlake.nix; };
+  outputs = _: { mkFlake = import ./lib/mkFlake.nix; };
 }
