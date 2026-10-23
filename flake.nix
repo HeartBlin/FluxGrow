@@ -1,4 +1,5 @@
 {
-  inputs = { };
-  outputs = inputs: { };
+  outputs = _: {
+    lib.mkFlake = import ./lib/mkFlake.nix;
+  };
 }
